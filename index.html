@@ -1,0 +1,490 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Apostolic Fellowship Ministries Church — Bangalore</title>
+  <meta name="description" content="Welcome to Apostolic Fellowship Ministries — a place of worship, faith, revival & salvation in Bangalore." />
+  <link rel="canonical" href="/" />
+  <link rel="icon" href="https://ik.imagekit.io/iq6dnzo5f/image.png?updatedAt=1780068369988" />
+  <link rel="stylesheet" href="style.css" />
+  <!-- Bootstrap Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.11.3/font/bootstrap-icons.min.css"/>
+</head>
+<body>
+
+<!-- ===== INTRO VIDEO ===== -->
+<div id="intro-overlay">
+  <video id="intro-video" autoplay muted playsinline>
+    <source src="https://ik.imagekit.io/iq6dnzo5f/Apostolic%20Fellowship%20Ministries.mp4?updatedAt=1780119697011" type="video/mp4" />
+  </video>
+  <button id="intro-skip">Skip</button>
+</div>
+
+<!-- ===== NAVBAR ===== -->
+<header id="navbar">
+  <div class="navbar-inner">
+    <div class="nav-content">
+      <a href="index.html" class="nav-brand">
+        <img src="https://ik.imagekit.io/iq6dnzo5f/image.png?updatedAt=1780068369988" alt="AFM Logo" class="animate-float" />
+        <div class="nav-brand-text">
+          <div class="line1">Apostolic Fellowship</div>
+          <div class="line2">Ministries • Bangalore</div>
+        </div>
+      </a>
+      <nav class="nav-links" id="desktop-nav">
+        <a href="index.html" class="nav-link active">Home</a>
+        <a href="about.html" class="nav-link">About</a>
+        <a href="services.html" class="nav-link">Services</a>
+        <a href="library.html" class="nav-link">Library</a>
+        <a href="gallery.html" class="nav-link">Gallery</a>
+        <a href="contact.html" class="nav-link">Contact</a>
+      </nav>
+      <div class="nav-actions">
+        <button class="theme-btn" id="theme-toggle" aria-label="Toggle theme">
+          <i class="bi bi-moon"></i>
+        </button>
+        <a href="contact.html" class="btn-gold btn-sm nav-join-btn">Join Worship</a>
+        <button class="hamburger-btn" id="hamburger" aria-label="Menu">
+          <i class="bi bi-list" style="font-size:1.2rem"></i>
+        </button>
+      </div>
+    </div>
+    <div class="mobile-menu" id="mobile-menu">
+      <a href="index.html" class="mobile-link">Home</a>
+      <a href="about.html" class="mobile-link">About</a>
+      <a href="services.html" class="mobile-link">Services</a>
+      <a href="library.html" class="mobile-link">Library</a>
+      <a href="gallery.html" class="mobile-link">Gallery</a>
+      <a href="contact.html" class="mobile-link">Contact</a>
+      <a href="contact.html" class="btn-gold" style="margin-top:0.75rem;justify-content:center">Join Worship</a>
+    </div>
+  </div>
+</header>
+
+<!-- ===== HERO ===== -->
+<section class="hero">
+  <video class="hero-video" autoplay loop muted playsinline poster="https://ik.imagekit.io/iq6dnzo5f/hero-bg.jpg?updatedAt=1780119697011">
+    <source src="https://ik.imagekit.io/iq6dnzo5f/Apostolic%20Fellowship%20Ministries.mp4?updatedAt=1780119697011" type="video/mp4" />
+  </video>
+  <div class="hero-overlay"></div>
+  <div class="holy-rays" style="position:absolute;inset:0;pointer-events:none"></div>
+  <div class="hero-content">
+    <p class="hero-eyebrow">Apostolic Fellowship Ministries • Bangalore</p>
+    <h1 class="hero-title">Welcome to <span class="text-shimmer">Apostolic Fellowship</span><br>Ministries Church</h1>
+    <p class="hero-sub">A Place of Worship, Faith, Revival &amp; Salvation</p>
+    <div class="hero-cta">
+      <a href="services.html" class="btn-divine"><i class="bi bi-heart-fill"></i> Join Worship</a>
+      <a href="#sermons" class="btn-gold"><i class="bi bi-play-fill"></i> Watch Sermons</a>
+      <a href="contact.html" class="btn-ghost-light"><i class="bi bi-telephone"></i> Contact Us</a>
+    </div>
+  </div>
+  <div class="scroll-indicator">SCROLL<span class="scroll-line"></span></div>
+</section>
+
+<!-- ===== ABOUT PREVIEW ===== -->
+<section class="section">
+  <div class="container">
+    <div class="grid-2-1" style="gap:3.5rem">
+      <div class="reveal" style="position:relative">
+        <div class="img-frame" style="border-radius:1.5rem;overflow:hidden">
+          <img src="https://ik.imagekit.io/iq6dnzo5f/worship-1.jpg" alt="Worship" style="width:100%;height:100%;object-fit:cover;border-radius:1.5rem" loading="lazy"/>
+        </div>
+        <div class="img-frame-badge" style="display:none" id="about-badge">
+          <div style="display:flex;align-items:center;gap:0.75rem">
+            <div style="width:3rem;height:3rem;border-radius:9999px;display:grid;place-items:center;color:white;font-size:1.1rem" class="bg-royal-gradient"><i class="bi bi-stars"></i></div>
+            <div>
+              <div class="font-display" style="font-size:1.25rem">End-Time Revival</div>
+              <div style="font-size:0.7rem;color:var(--muted-foreground)">Days of the Apostles</div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div>
+        <div class="reveal"><p style="font-size:0.7rem;text-transform:uppercase;letter-spacing:0.4em;color:var(--royal)">About Our Church</p></div>
+        <div class="reveal" style="transition-delay:0.1s">
+          <h2 class="font-display" style="font-size:clamp(2rem,4vw,3rem);margin-top:0.75rem">A house of <span class="text-gradient-royal">prayer, revival</span> &amp; salvation.</h2>
+        </div>
+        <div class="reveal" style="transition-delay:0.2s">
+          <p style="margin-top:1.25rem;color:var(--muted-foreground);line-height:1.8;font-size:1.05rem">We believe in the Trinity — the Father, the Son &amp; the Holy Spirit. Our heart is to bring plenty of souls into the Kingdom of God through the preaching of the cross, the power of the Holy Spirit, and a life of holiness.</p>
+        </div>
+        <div class="reveal" style="transition-delay:0.3s">
+          <div style="margin-top:2rem;display:grid;grid-template-columns:repeat(3,1fr);gap:1rem">
+            <div class="glass" style="border-radius:1rem;padding:1rem;text-align:center">
+              <div class="font-display text-gradient-royal" style="font-size:1.75rem">15+</div>
+              <div style="font-size:0.7rem;color:var(--muted-foreground);margin-top:0.25rem">Years of Ministry</div>
+            </div>
+            <div class="glass" style="border-radius:1rem;padding:1rem;text-align:center">
+              <div class="font-display text-gradient-royal" style="font-size:1.75rem">500+</div>
+              <div style="font-size:0.7rem;color:var(--muted-foreground);margin-top:0.25rem">Souls Saved</div>
+            </div>
+            <div class="glass" style="border-radius:1rem;padding:1rem;text-align:center">
+              <div class="font-display text-gradient-royal" style="font-size:1.75rem">4.9★</div>
+              <div style="font-size:0.7rem;color:var(--muted-foreground);margin-top:0.25rem">Google Reviews</div>
+            </div>
+          </div>
+        </div>
+        <div class="reveal" style="transition-delay:0.4s;margin-top:2rem">
+          <a href="about.html" class="btn-divine">Discover Our Story <i class="bi bi-arrow-right"></i></a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== UPCOMING SERVICES ===== -->
+<section class="section section-secondary">
+  <div class="section-header">
+    <p class="section-eyebrow">This Week</p>
+    <h2 class="section-title font-display">Upcoming Services</h2>
+    <p class="section-subtitle">Come worship the King with us. All are welcome — bring your family and your faith.</p>
+  </div>
+  <div class="container">
+    <div class="grid-3">
+      <div class="reveal glass-card glass">
+        <div style="display:flex;align-items:center;gap:0.75rem;color:var(--royal)">
+          <div style="width:2.75rem;height:2.75rem;border-radius:9999px;display:grid;place-items:center;color:white" class="bg-royal-gradient"><i class="bi bi-heart-fill"></i></div>
+          <span style="font-size:0.65rem;text-transform:uppercase;letter-spacing:0.3em;color:var(--muted-foreground)">Sunday</span>
+        </div>
+        <h3 class="font-display" style="font-size:1.5rem;margin-top:1.25rem">Tamil Worship Service</h3>
+        <div style="margin-top:0.75rem;display:flex;align-items:center;gap:0.5rem;color:var(--muted-foreground);font-size:0.875rem"><i class="bi bi-clock"></i> 9:00 AM</div>
+        <a href="services.html" style="margin-top:1.5rem;display:inline-flex;align-items:center;gap:0.5rem;color:var(--royal);font-weight:500;font-size:0.9rem">View schedule <i class="bi bi-arrow-right"></i></a>
+      </div>
+      <div class="reveal glass-card glass" style="transition-delay:0.1s">
+        <div style="display:flex;align-items:center;gap:0.75rem">
+          <div style="width:2.75rem;height:2.75rem;border-radius:9999px;display:grid;place-items:center;color:white" class="bg-royal-gradient"><i class="bi bi-heart-fill"></i></div>
+          <span style="font-size:0.65rem;text-transform:uppercase;letter-spacing:0.3em;color:var(--muted-foreground)">Sunday</span>
+        </div>
+        <h3 class="font-display" style="font-size:1.5rem;margin-top:1.25rem">Telugu Worship Service</h3>
+        <div style="margin-top:0.75rem;display:flex;align-items:center;gap:0.5rem;color:var(--muted-foreground);font-size:0.875rem"><i class="bi bi-clock"></i> 11:30 AM</div>
+        <a href="services.html" style="margin-top:1.5rem;display:inline-flex;align-items:center;gap:0.5rem;color:var(--royal);font-weight:500;font-size:0.9rem">View schedule <i class="bi bi-arrow-right"></i></a>
+      </div>
+      <div class="reveal glass-card glass" style="transition-delay:0.2s">
+        <div style="display:flex;align-items:center;gap:0.75rem">
+          <div style="width:2.75rem;height:2.75rem;border-radius:9999px;display:grid;place-items:center;color:white" class="bg-royal-gradient"><i class="bi bi-book-fill"></i></div>
+          <span style="font-size:0.65rem;text-transform:uppercase;letter-spacing:0.3em;color:var(--muted-foreground)">Wednesday</span>
+        </div>
+        <h3 class="font-display" style="font-size:1.5rem;margin-top:1.25rem">Weekly Bible Study</h3>
+        <div style="margin-top:0.75rem;display:flex;align-items:center;gap:0.5rem;color:var(--muted-foreground);font-size:0.875rem"><i class="bi bi-clock"></i> 7:00 PM</div>
+        <a href="services.html" style="margin-top:1.5rem;display:inline-flex;align-items:center;gap:0.5rem;color:var(--royal);font-weight:500;font-size:0.9rem">View schedule <i class="bi bi-arrow-right"></i></a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== PRAYER & BIBLE STUDY ===== -->
+<section class="section">
+  <div class="container">
+    <div class="grid-2">
+      <div class="reveal" style="position:relative;overflow:hidden;border-radius:1.5rem;box-shadow:var(--shadow-elegant);min-height:360px">
+        <img src="https://ik.imagekit.io/iq6dnzo5f/prayer.jpg" alt="Prayer" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover" loading="lazy"/>
+        <div style="position:absolute;inset:0;background:linear-gradient(to top, rgba(30,27,75,0.95) 0%, rgba(30,27,75,0.4) 50%, transparent 100%)"></div>
+        <div style="position:relative;z-index:1;padding:2.5rem;height:100%;display:flex;flex-direction:column;justify-content:flex-end;color:white">
+          <div style="font-size:0.65rem;letter-spacing:0.4em;text-transform:uppercase;color:var(--gold)">Every Day</div>
+          <h3 class="font-display" style="font-size:2rem;margin-top:0.5rem">Morning Prayer Meeting</h3>
+          <p style="margin-top:0.5rem;color:rgba(255,255,255,0.8)">7:00 AM – 8:00 AM • Tamil &amp; Telugu</p>
+        </div>
+      </div>
+      <div class="reveal" style="transition-delay:0.1s;position:relative;overflow:hidden;border-radius:1.5rem;box-shadow:var(--shadow-elegant);min-height:360px">
+        <img src="https://ik.imagekit.io/iq6dnzo5f/bible.jpg" alt="Bible Study" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover" loading="lazy"/>
+        <div style="position:absolute;inset:0;background:linear-gradient(to top, rgba(30,27,75,0.95) 0%, rgba(30,27,75,0.4) 50%, transparent 100%)"></div>
+        <div style="position:relative;z-index:1;padding:2.5rem;height:100%;display:flex;flex-direction:column;justify-content:flex-end;color:white">
+          <div style="font-size:0.65rem;letter-spacing:0.4em;text-transform:uppercase;color:var(--gold)">Wednesday</div>
+          <h3 class="font-display" style="font-size:2rem;margin-top:0.5rem">Weekly Bible Study</h3>
+          <p style="margin-top:0.5rem;color:rgba(255,255,255,0.8)">7:00 PM • Deepen your walk with the Word</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== VERSE SLIDER ===== -->
+<section class="verse-section holy-rays">
+  <div style="position:absolute;inset:0;opacity:0.3;pointer-events:none;background:radial-gradient(circle at 10% 20%, rgba(201,168,76,0.25), transparent 40%), radial-gradient(circle at 90% 80%, rgba(99,102,241,0.35), transparent 45%)"></div>
+  <div class="container-sm" style="position:relative">
+    <p style="font-size:0.65rem;letter-spacing:0.4em;text-transform:uppercase;color:var(--gold);margin-bottom:1.5rem">Daily Scripture</p>
+    <div id="verse-display">
+      <p class="verse-text" id="verse-text"></p>
+      <p class="verse-ref text-shimmer" id="verse-ref"></p>
+    </div>
+    <div class="verse-dots" id="verse-dots"></div>
+  </div>
+</section>
+
+<!-- ===== TESTIMONIALS ===== -->
+<section class="section">
+  <div class="section-header">
+    <p class="section-eyebrow">Testimonies</p>
+    <h2 class="section-title font-display">Lives Touched by His Love</h2>
+    <p class="section-subtitle">Hear from our family of believers — God is still working miracles.</p>
+  </div>
+  <div class="container">
+    <div class="grid-3">
+      <div class="reveal glass glass-card">
+        <div style="color:var(--gold)">★★★★★</div>
+        <p style="margin-top:1rem;color:var(--foreground);opacity:0.85;line-height:1.7;font-style:italic">"The Holy Spirit truly moves in this church. I was healed during a Wednesday prayer meeting. Praise God!"</p>
+        <div style="margin-top:1.25rem;display:flex;align-items:center;gap:0.75rem">
+          <div style="width:2.5rem;height:2.5rem;border-radius:9999px;display:grid;place-items:center;color:white;font-size:0.875rem" class="bg-royal-gradient">P</div>
+          <div><div style="font-weight:500">Priya R.</div><div style="font-size:0.7rem;color:var(--muted-foreground)">Member</div></div>
+        </div>
+      </div>
+      <div class="reveal glass glass-card" style="transition-delay:0.1s">
+        <div style="color:var(--gold)">★★★★★</div>
+        <p style="margin-top:1rem;color:var(--foreground);opacity:0.85;line-height:1.7;font-style:italic">"A welcoming family. The pastor's teachings on revival have transformed my walk with Christ."</p>
+        <div style="margin-top:1.25rem;display:flex;align-items:center;gap:0.75rem">
+          <div style="width:2.5rem;height:2.5rem;border-radius:9999px;display:grid;place-items:center;color:white;font-size:0.875rem" class="bg-royal-gradient">D</div>
+          <div><div style="font-weight:500">Daniel K.</div><div style="font-size:0.7rem;color:var(--muted-foreground)">Member</div></div>
+        </div>
+      </div>
+      <div class="reveal glass glass-card" style="transition-delay:0.2s">
+        <div style="color:var(--gold)">★★★★★</div>
+        <p style="margin-top:1rem;color:var(--foreground);opacity:0.85;line-height:1.7;font-style:italic">"After my baptism here, my entire life changed. I found peace, purpose, and a home."</p>
+        <div style="margin-top:1.25rem;display:flex;align-items:center;gap:0.75rem">
+          <div style="width:2.5rem;height:2.5rem;border-radius:9999px;display:grid;place-items:center;color:white;font-size:0.875rem" class="bg-royal-gradient">S</div>
+          <div><div style="font-weight:500">Sophia M.</div><div style="font-size:0.7rem;color:var(--muted-foreground)">Member</div></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== PASTOR'S MESSAGE ===== -->
+<section class="section" style="background:linear-gradient(135deg,rgba(240,241,248,0.5),rgba(250,250,254,1))">
+  <div class="dark" id="pastor-bg-helper" style="display:none"></div>
+  <div class="section-header">
+    <p class="section-eyebrow">Our Shepherds</p>
+    <h2 class="section-title font-display">Message from Our Pastors</h2>
+    <p class="section-subtitle">"Maranatha! Lord Jesus, come soon."</p>
+  </div>
+  <div class="container" style="max-width:960px">
+    <div class="grid-2">
+      <div class="reveal glass glass-card" style="transition: all 0.5s">
+        <div style="position:relative">
+          <img src="assets/pastor.jpg" alt="Senior Pastor" style="border-radius:1rem;box-shadow:var(--shadow-elegant);width:100%;aspect-ratio:4/3;object-fit:cover" loading="lazy"/>
+        </div>
+        <p style="margin-top:1.5rem;color:var(--muted-foreground);line-height:1.8;font-style:italic">"Beloved, we are living in the last days. The Holy Spirit is pouring out a great end-time revival — with the 9 gifts and fruits of the Spirit, as in the days of the apostles. Repent, believe, and walk in holiness. The King is coming."</p>
+        <div style="margin-top:1.25rem">
+          <div class="font-display" style="font-size:1.25rem">Senior Pastor</div>
+          <div style="font-size:0.65rem;text-transform:uppercase;letter-spacing:0.3em;color:var(--royal);margin-top:0.25rem">Senior Pastor • Bangalore</div>
+        </div>
+      </div>
+      <div class="reveal glass glass-card" style="transition-delay:0.1s;transition:all 0.5s">
+        <div style="position:relative">
+          <img src="assets/pastor.jpg" alt="Co-Pastor" style="border-radius:1rem;box-shadow:var(--shadow-elegant);width:100%;aspect-ratio:4/3;object-fit:cover" loading="lazy"/>
+        </div>
+        <p style="margin-top:1.5rem;color:var(--muted-foreground);line-height:1.8;font-style:italic">"Walk daily in prayer and the Word. God is raising a generation rooted in holiness and on fire for His coming. May the Lord strengthen you and fill your home with His peace and glory."</p>
+        <div style="margin-top:1.25rem">
+          <div class="font-display" style="font-size:1.25rem">Co-Pastor</div>
+          <div style="font-size:0.65rem;text-transform:uppercase;letter-spacing:0.3em;color:var(--royal);margin-top:0.25rem">Co-Pastor • Bangalore</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== GALLERY PREVIEW ===== -->
+<section class="section">
+  <div class="section-header">
+    <p class="section-eyebrow">Moments</p>
+    <h2 class="section-title font-display">Gallery Preview</h2>
+  </div>
+  <div class="container">
+    <div class="grid-4" style="gap:0.75rem">
+      <div class="reveal" style="transition-delay:0s">
+        <a href="gallery.html" style="display:block;position:relative;overflow:hidden;border-radius:1rem;aspect-ratio:4/5">
+          <img src="https://ik.imagekit.io/iq6dnzo5f/congregation.jpg" alt="Congregation" style="width:100%;height:100%;object-fit:cover;transition:transform 0.7s"/>
+          <div style="position:absolute;inset:0;background:linear-gradient(to top,rgba(30,27,75,0.8),transparent);opacity:0.7;transition:opacity 0.3s"></div>
+        </a>
+      </div>
+      <div class="reveal" style="transition-delay:0.08s">
+        <a href="gallery.html" style="display:block;position:relative;overflow:hidden;border-radius:1rem;aspect-ratio:4/5">
+          <img src="https://ik.imagekit.io/iq6dnzo5f/baptism.jpg" alt="Baptism" style="width:100%;height:100%;object-fit:cover;transition:transform 0.7s"/>
+          <div style="position:absolute;inset:0;background:linear-gradient(to top,rgba(30,27,75,0.8),transparent);opacity:0.7;transition:opacity 0.3s"></div>
+        </a>
+      </div>
+      <div class="reveal" style="transition-delay:0.16s">
+        <a href="gallery.html" style="display:block;position:relative;overflow:hidden;border-radius:1rem;aspect-ratio:4/5">
+          <img src="https://ik.imagekit.io/iq6dnzo5f/revival.jpg" alt="Revival" style="width:100%;height:100%;object-fit:cover;transition:transform 0.7s"/>
+          <div style="position:absolute;inset:0;background:linear-gradient(to top,rgba(30,27,75,0.8),transparent);opacity:0.7;transition:opacity 0.3s"></div>
+        </a>
+      </div>
+      <div class="reveal" style="transition-delay:0.24s">
+        <a href="gallery.html" style="display:block;position:relative;overflow:hidden;border-radius:1rem;aspect-ratio:4/5">
+          <img src="https://ik.imagekit.io/iq6dnzo5f/worship-1.jpg" alt="Worship" style="width:100%;height:100%;object-fit:cover;transition:transform 0.7s"/>
+          <div style="position:absolute;inset:0;background:linear-gradient(to top,rgba(30,27,75,0.8),transparent);opacity:0.7;transition:opacity 0.3s"></div>
+        </a>
+      </div>
+    </div>
+    <div style="text-align:center;margin-top:2.5rem">
+      <a href="gallery.html" class="btn-gold">View Full Gallery <i class="bi bi-arrow-right"></i></a>
+    </div>
+  </div>
+</section>
+
+<!-- ===== SERMONS ===== -->
+<section id="sermons" class="section" style="background:linear-gradient(135deg,#111827,#1e3a8a);color:white;position:relative;overflow:hidden">
+  <div class="holy-rays" style="position:absolute;inset:0;pointer-events:none"></div>
+  <div class="section-header light">
+    <p class="section-eyebrow" style="color:var(--gold)">Watch &amp; Listen</p>
+    <h2 class="section-title font-display" style="color:white">Recent Sermons &amp; Live Worship</h2>
+    <p class="section-subtitle" style="color:rgba(255,255,255,0.75)">Be lifted up in spirit — wherever you are.</p>
+  </div>
+  <div class="container" style="position:relative">
+    <div class="grid-3">
+      <div class="reveal glass-dark" style="border-radius:1.5rem;overflow:hidden">
+        <div style="aspect-ratio:16/9;position:relative">
+          <img src="https://ik.imagekit.io/iq6dnzo5f/congregation.jpg" alt="Sermon" style="width:100%;height:100%;object-fit:cover;opacity:0.8;transition:all 0.7s" loading="lazy"/>
+          <div style="position:absolute;inset:0;display:grid;place-items:center">
+            <div style="width:4rem;height:4rem;border-radius:9999px;background:rgba(201,168,76,0.9);display:grid;place-items:center;color:#1e1b4b;font-size:1.3rem">▶</div>
+          </div>
+        </div>
+        <div style="padding:1.25rem">
+          <div style="font-size:0.6rem;text-transform:uppercase;letter-spacing:0.3em;color:var(--gold)">Sermon</div>
+          <h3 class="font-display" style="font-size:1.25rem;margin-top:0.5rem">The Power of Pentecost</h3>
+        </div>
+      </div>
+      <div class="reveal glass-dark" style="border-radius:1.5rem;overflow:hidden;transition-delay:0.1s">
+        <div style="aspect-ratio:16/9;position:relative">
+          <img src="https://ik.imagekit.io/iq6dnzo5f/congregation.jpg" alt="Sermon" style="width:100%;height:100%;object-fit:cover;opacity:0.8;transition:all 0.7s" loading="lazy"/>
+          <div style="position:absolute;inset:0;display:grid;place-items:center">
+            <div style="width:4rem;height:4rem;border-radius:9999px;background:rgba(201,168,76,0.9);display:grid;place-items:center;color:#1e1b4b;font-size:1.3rem">▶</div>
+          </div>
+        </div>
+        <div style="padding:1.25rem">
+          <div style="font-size:0.6rem;text-transform:uppercase;letter-spacing:0.3em;color:var(--gold)">Sermon</div>
+          <h3 class="font-display" style="font-size:1.25rem;margin-top:0.5rem">Walking in Holiness</h3>
+        </div>
+      </div>
+      <div class="reveal glass-dark" style="border-radius:1.5rem;overflow:hidden;transition-delay:0.2s">
+        <div style="aspect-ratio:16/9;position:relative">
+          <img src="https://ik.imagekit.io/iq6dnzo5f/congregation.jpg" alt="Sermon" style="width:100%;height:100%;object-fit:cover;opacity:0.8;transition:all 0.7s" loading="lazy"/>
+          <div style="position:absolute;inset:0;display:grid;place-items:center">
+            <div style="width:4rem;height:4rem;border-radius:9999px;background:rgba(201,168,76,0.9);display:grid;place-items:center;color:#1e1b4b;font-size:1.3rem">▶</div>
+          </div>
+        </div>
+        <div style="padding:1.25rem">
+          <div style="font-size:0.6rem;text-transform:uppercase;letter-spacing:0.3em;color:var(--gold)">Sermon</div>
+          <h3 class="font-display" style="font-size:1.25rem;margin-top:0.5rem">Maranatha — He Comes!</h3>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== REVIEWS + CONTACT QUICK ===== -->
+<section class="section">
+  <div class="container">
+    <div class="grid-2">
+      <div class="reveal glass glass-card">
+        <div style="display:flex;align-items:center;gap:0.75rem">
+          <div style="width:3.5rem;height:3.5rem;border-radius:9999px;background:linear-gradient(135deg,var(--gold),#c97c28);display:grid;place-items:center;color:white;font-weight:700;font-size:1.1rem">G</div>
+          <div>
+            <div class="font-display" style="font-size:1.75rem">4.9 <span style="color:var(--gold)">★★★★★</span></div>
+            <div style="font-size:0.8rem;color:var(--muted-foreground)">Based on Google Reviews</div>
+          </div>
+        </div>
+        <p style="margin-top:1.25rem;color:var(--muted-foreground)">A trusted family of believers known for genuine worship, anointed preaching, and a deep love for souls.</p>
+        <a href="https://www.google.com/maps" target="_blank" rel="noreferrer" class="btn-gold" style="margin-top:1.5rem;display:inline-flex">Read Reviews <i class="bi bi-arrow-right" style="margin-left:0.25rem"></i></a>
+      </div>
+      <div class="reveal" style="border-radius:1.5rem;padding:2rem;color:white;position:relative;overflow:hidden;background:linear-gradient(135deg,#3730a3,#1e1b4b);transition-delay:0.1s">
+        <div class="holy-rays" style="position:absolute;inset:0;pointer-events:none"></div>
+        <div style="position:relative">
+          <p style="font-size:0.65rem;text-transform:uppercase;letter-spacing:0.4em;color:var(--gold)">Visit Us</p>
+          <h3 class="font-display" style="font-size:1.75rem;margin-top:0.5rem">We'd love to welcome you</h3>
+          <div style="margin-top:1.25rem;display:flex;flex-direction:column;gap:0.75rem;font-size:0.875rem;color:rgba(255,255,255,0.85)">
+            <p style="display:flex;gap:0.5rem"><i class="bi bi-geo-alt" style="color:var(--gold);margin-top:2px;flex-shrink:0"></i> 1st Floor, 9C, 80 Feet Rd, opp. Jnanakshi School, 5th Stage, Rajarajeshwari Nagar, Bengaluru 560098</p>
+            <p style="display:flex;gap:0.5rem"><i class="bi bi-telephone" style="color:var(--gold)"></i> +91 98457 10427</p>
+            <p style="display:flex;gap:0.5rem"><i class="bi bi-calendar3" style="color:var(--gold)"></i> Sunday 9:00 AM (Tamil) • 11:30 AM (Telugu)</p>
+          </div>
+          <div style="display:flex;flex-wrap:wrap;gap:0.75rem;margin-top:1.5rem">
+            <a href="contact.html" class="btn-gold">Get Directions</a>
+            <a href="tel:+919845710427" class="btn-ghost-light"><i class="bi bi-telephone"></i> Call Now</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== FOOTER ===== -->
+<footer>
+  <div class="holy-rays" style="position:absolute;inset:0;opacity:0.7;pointer-events:none"></div>
+  <div style="position:absolute;inset:0;opacity:0.2;pointer-events:none;background:radial-gradient(circle at 20% 20%, rgba(99,102,241,0.5), transparent 50%)"></div>
+  <div class="footer-inner">
+    <div class="footer-grid">
+      <div>
+        <div style="display:flex;align-items:center;gap:0.75rem">
+          <img src="https://ik.imagekit.io/iq6dnzo5f/image.png?updatedAt=1780068369988" alt="Logo" style="width:3.5rem;height:3.5rem" class="animate-glow"/>
+          <div>
+            <div class="font-display" style="font-size:1.5rem">Apostolic Fellowship Ministries</div>
+            <div style="font-size:0.65rem;text-transform:uppercase;letter-spacing:0.3em;color:var(--gold)">Church • Bangalore</div>
+          </div>
+        </div>
+        <p style="margin-top:1.25rem;max-width:400px;color:rgba(255,255,255,0.75);font-style:italic;font-family:var(--font-display);font-size:1.1rem;line-height:1.6">
+          "For God so loved the world, that he gave his only begotten Son, that whosoever believeth in him should not perish, but have everlasting life."
+        </p>
+        <p style="margin-top:0.25rem;font-size:0.7rem;color:var(--gold);letter-spacing:0.2em">— JOHN 3:16</p>
+      </div>
+      <div>
+        <h4 style="font-size:0.75rem;text-transform:uppercase;letter-spacing:0.25em;color:var(--gold);margin-bottom:1rem">Explore</h4>
+        <ul style="list-style:none;display:flex;flex-direction:column;gap:0.5rem;color:rgba(255,255,255,0.8)">
+          <li><a href="index.html" style="color:inherit;transition:color 0.2s" onmouseover="this.style.color='var(--gold)'" onmouseout="this.style.color='rgba(255,255,255,0.8)'">Home</a></li>
+          <li><a href="about.html" style="color:inherit;transition:color 0.2s" onmouseover="this.style.color='var(--gold)'" onmouseout="this.style.color='rgba(255,255,255,0.8)'">About</a></li>
+          <li><a href="services.html" style="color:inherit;transition:color 0.2s" onmouseover="this.style.color='var(--gold)'" onmouseout="this.style.color='rgba(255,255,255,0.8)'">Services</a></li>
+          <li><a href="gallery.html" style="color:inherit;transition:color 0.2s" onmouseover="this.style.color='var(--gold)'" onmouseout="this.style.color='rgba(255,255,255,0.8)'">Gallery</a></li>
+          <li><a href="contact.html" style="color:inherit;transition:color 0.2s" onmouseover="this.style.color='var(--gold)'" onmouseout="this.style.color='rgba(255,255,255,0.8)'">Contact</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4 style="font-size:0.75rem;text-transform:uppercase;letter-spacing:0.25em;color:var(--gold);margin-bottom:1rem">Visit Us</h4>
+        <ul style="list-style:none;display:flex;flex-direction:column;gap:0.75rem;color:rgba(255,255,255,0.8);font-size:0.875rem">
+          <li style="display:flex;gap:0.5rem"><i class="bi bi-geo-alt" style="color:var(--gold);margin-top:2px;flex-shrink:0"></i> 1st Floor, 9C, 80 Feet Rd, Jnanakshi Layout, 5th Stage, Rajarajeshwari Nagar, Bengaluru, KA 560098</li>
+          <li style="display:flex;gap:0.5rem"><i class="bi bi-telephone" style="color:var(--gold)"></i> +91 98457 10427</li>
+          <li style="display:flex;gap:0.5rem"><i class="bi bi-envelope" style="color:var(--gold)"></i> info@apostolicfellowship.in</li>
+        </ul>
+        <div class="footer-social">
+          <a class="social-btn" href="#" aria-label="Facebook"><i class="bi bi-facebook"></i></a>
+          <a class="social-btn" href="#" aria-label="Instagram"><i class="bi bi-instagram"></i></a>
+          <a class="social-btn" href="#" aria-label="YouTube"><i class="bi bi-youtube"></i></a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    © <span id="footer-year"></span> Apostolic Fellowship Ministries Church • Maranatha! Lord Jesus Come Soon 🙏
+  </div>
+</footer>
+
+<!-- ===== FLOATING PRAYER BUTTON ===== -->
+<button class="floating-prayer-btn" id="floating-prayer-btn" aria-label="Prayer Request">🙏</button>
+
+<!-- ===== PRAYER MODAL ===== -->
+<div class="modal-overlay" id="prayer-modal">
+  <div class="modal-box">
+    <button class="modal-close" id="prayer-modal-close">✕</button>
+    <div style="display:flex;align-items:center;gap:0.75rem;margin-bottom:0.5rem">
+      <div style="width:2.75rem;height:2.75rem;border-radius:9999px;display:grid;place-items:center;color:white" class="bg-royal-gradient">🙏</div>
+      <div>
+        <h3 class="font-display" style="font-size:1.5rem">Prayer Request</h3>
+        <p style="font-size:0.7rem;color:var(--muted-foreground)">We will pray with you in faith.</p>
+      </div>
+    </div>
+    <div id="prayer-success" style="display:none;padding:2.5rem 0;text-align:center">
+      <p class="font-display text-gradient-royal" style="font-size:1.25rem">🙏 Received with love</p>
+      <p style="font-size:0.875rem;color:var(--muted-foreground);margin-top:0.5rem">Our pastors will lift you up in prayer.</p>
+    </div>
+    <form id="prayer-form" style="margin-top:1rem;display:flex;flex-direction:column;gap:0.75rem" onsubmit="submitPrayer(event)">
+      <input required placeholder="Your name" class="field" />
+      <input type="tel" placeholder="Phone (optional)" class="field" />
+      <textarea required rows="4" placeholder="Share your prayer request…" class="field"></textarea>
+      <button type="submit" class="btn-divine" style="width:100%;justify-content:center">Send Request 🙏</button>
+    </form>
+  </div>
+</div>
+
+<!-- ===== TOAST ===== -->
+<div id="toast"></div>
+
+<script src="script.js"></script>
+</body>
+</html>
